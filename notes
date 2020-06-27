@@ -1,0 +1,10 @@
+https://computingforgeeks.com/how-to-install-vagrant-and-virtualbox-on-fedora/
+Follow the above link to install Virtualbox on Fedora. The final step will fail
+as UEFI Secureboot is enabled in my laptop. Had to go to boot menu (F10) ->
+Advanced (F7) -> Security to disable it.
+The below link talks about a method to sign the kernel modules (as shown in the
+error log of the Virtualbox setup) without disabling the secure boot. Did not
+try it as it seemed complex.
+https://gist.github.com/reillysiemens/ac6bea1e6c7684d62f544bd79b2182a4
+
+https://github.com/hashicorp/vagrant/issues/6873
